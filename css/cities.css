@@ -13,50 +13,84 @@ body {
 .navbar-brand1 {
 padding-right: 200px;
 }
-.container {
- width: 150px;
 
-}
-form{
-    width: 100px;
-    margin: auto;
-    margin-top: 250px;
-}
-.search-box {
-     position: absolute;
-     top: 30%;
-     left: 50%;
-     transform: translate(-50%,-50%);
-     height: 40px;
-     padding: 10px;
-}
-.search-btn {
-    float: right;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.search-txt {
-    outline: none;
-    float: left;
-    padding: 0;
-    font-size: 15px;
-}
-.search-box:hover > .search-txt {
-    width: 240px;
-    padding: 0 6px;
-}
-.search-btn {
-    float: right;
-    width: 40px;
-    height: 40px;
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .round label {
+    background-color: #9BE5F3;
+    border: 1px solid #ccc;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    cursor: pointer;
+    height: 30px;
+    position: absolute;
+    width: 28px;
+  }
+  
+  .round label:after {
+    border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    content: "";
+    height: 6px;
+    left: 7px;
+    opacity: 0;
+    position: absolute;
+    top: 8px;
+    transform: rotate(-45deg);
+    width: 12px;
+  }
+  
+  .round input[type="checkbox"] {
+      visibility: hidden;
+  }
+  
+  .round input[type="checkbox"]:checked + label {
+    background-color: #9BE5F3;
+    border-color: #1850a5;
+  }
+  
+  .round input[type="checkbox"]:checked + label:after {
+    opacity: 1;
+  }
+  .checkbox1 {
+      display: inline;
+      padding-left: 30px;
+      text-align: center;
+  }
+  .tos_button {
+      margin-top: 20px;
+      background-color: #1850a5;
+      border: none;
+      color: #fff;
+      border-radius: 25px;
+      width: 35%;
+      height: 60px;
+  }
+  .tos_button:hover {
+      border-color: #11111f;
+      color: #fff;
+      background-color: #11111f;
+      border: 2px solid;
+  }
+  .tos_a {
+      padding-left: 15px;
+      color: #1850a5;
+      font-size: 20px;
+  } */
+  
 h6 {
     font-size: 20px;
     padding-left: 20%;
@@ -97,3 +131,63 @@ h6 {
     padding-bottom: 6px;
     text-decoration: none;
 }
+/* footer*/
+footer {
+    width: 100%;
+    padding: 4rem 0 2rem;
+    display: block;
+    z-index: 0;
+
+}
+
+.col-md-06 {
+    display: flex;
+    width: 50%;
+}
+.download {
+   display: block;
+}
+
+h6 {
+    font-size: 20px;
+}
+.col-sm-02 ul{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    box-sizing: inherit;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-color: blue;
+    }
+.col-sm-02 ul li{
+    box-sizing: inherit;
+    display: list-item;
+    list-style-type: none;
+    padding-bottom: 6px;
+    font-color: blue;
+}
+
+.col-sm-03 img {
+    max-width: 30%;
+   }
+   .item p {
+       color: black;
+       opacity: .65;
+   }
+   .item a{
+       text-decoration: none;
+       color: black;
+   }
+   .item a:hover {
+       color: pink;
+       text-decoration: underline;
+   }
+   i {
+       color: black;
+       float: right;
+       padding-right: 10px;
+       height: 80px;
+   
+   }
