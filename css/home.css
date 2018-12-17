@@ -138,16 +138,16 @@ footer {
 
 }
 
-.f-col-1{
-    display: flex;
-}
 .col-md-06 {
     display: flex;
+    width: 50%;
+}
+.download {
+   display: block;
 }
 
 h6 {
     font-size: 20px;
-    padding-left: 19%;
 }
 .col-sm-02 ul{
     margin-top: 0;
@@ -168,7 +168,7 @@ h6 {
 
 
 .col-sm-03 img {
- max-width: 20%;
+ max-width: 30%;
 }
 .item p {
     color: black;
