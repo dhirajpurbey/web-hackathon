@@ -1,0 +1,57 @@
+body, html {
+    height: 100%;
+    font-display: 'source sans Pro';
+
+}
+  .form-group a{
+    color:palevioletred;
+  }
+  .bg-img >p
+  {
+    color:white;
+  }
+.bg-img h1{
+  color:white;
+}
+
+ .bg-img
+ {   
+    background-image: url("../img/back.jpg");
+    min-height: 380px;
+    min-width: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+     }
+ .form-group{
+    position: absolute;
+    top:0px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left:700px;
+} 
+ input[type=text], input[type=password] {
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color:white;
+    outline: none;
+  } 
+  .btn {
+    background-color:palevioletred;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+    

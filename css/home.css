@@ -11,14 +11,6 @@ body {
     height: 100%;
     z-index: 100;
     }
-nav  {
-    background-color: #9BE5F3;
-    color: #1850a5;
-
-}
-nav a img {
-    width: 25%;
-    margin-left: 50%;
 }
 nav div {
     font-size: 1.5rem;
