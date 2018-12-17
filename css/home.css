@@ -1,13 +1,15 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
 }
-.parallax{
+.parallax {
+    background: #fff;
+    box-shadow: 0 20px 30px rgba(0,0,0,.1);
     position: relative;
-    
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 100%;
+    z-index: 100;
     }
 nav  {
     background-color: #9BE5F3;
@@ -25,6 +27,8 @@ nav div {
 
 hr {
     background-color: #1850a5;
+    color: #1850a5;
+    margin: 0;
 }
 
 /*main section */
@@ -33,6 +37,7 @@ hr {
     background-color: #9BE5F3;
     margin: 0;
     padding-top: 4%;
+    position: relative;
 }
 .left_side {
     color: #1850a5;
@@ -122,4 +127,65 @@ hr {
   
 .home_image img{
     width: 80%;
+}
+
+/* footer*/
+footer {
+    width: 100%;
+    padding: 4rem 0 2rem;
+    display: block;
+    z-index: 0;
+
+}
+
+.f-col-1{
+    display: flex;
+}
+.col-md-06 {
+    display: flex;
+}
+
+h6 {
+    font-size: 20px;
+    padding-left: 19%;
+}
+.col-sm-02 ul{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    box-sizing: inherit;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    }
+.col-sm-02 ul li{
+    box-sizing: inherit;
+    display: list-item;
+    list-style-type: none;
+    padding-bottom: 6px;
+
+}
+
+
+.col-sm-03 img {
+ max-width: 20%;
+}
+.item p {
+    color: black;
+    opacity: .65;
+}
+.item a{
+    text-decoration: none;
+    color: black;
+}
+.item a:hover {
+    color: pink;
+    text-decoration: underline;
+}
+i {
+    color: black;
+    float: right;
+    padding-right: 10px;
+    height: 80px;
+
 }
