@@ -13,6 +13,16 @@
 }
 .nav-brand
 {
+    padding-right: 800px;
+    padding-left: 200px;
+}
+
+.img1
+{
+    float: left;
+}
+
+
     margin-right: 700px;
 }
 .row
@@ -67,6 +77,24 @@
   }
   .event
   {
+      height: 250px;
+      background-color:grey;
+    
+  }
+  
+  .col-xs-12 
+  {
+      background-color: grey; 
+    width: 100%; }
+
+  .col-sm-4
+  {
+      background-color: grey;
+  }    
+  .person
+  {
+      background-color: grey;
+
       height: 400px;
     
   }
